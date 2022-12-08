@@ -11,3 +11,7 @@ if (counter == 2) {
 else {
   console.log("not a Prime");
 }
+
+for(var i = 0; i < 10; ++ i) {
+  console.log(i);
+}
