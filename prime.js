@@ -1,15 +1,10 @@
 var num = 17;
-var counter = 0;
-for (var i = 1; i < num; i++) {
-  if (num % i == 0) {
-    counter++;
-  }
-}
-if (counter == 2) {
-  console.log(" Prime Number");
-}
-else {
-  console.log("not a Prime");
+var isPrime = true;
+for(i = 2; i < num; ++ i) {
+  if(num % 2 == 0) {
+    isPrime = false;
+    break;
+   }
 }
 
-//added some comment. 
+console.log(isPrime);
