@@ -9,3 +9,6 @@ const primeCalulate = (number) => {
 }
 
 console.log(primeCalulate(17));
+var j = 0;
+console.log(j);
+//added conflict
