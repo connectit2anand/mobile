@@ -1,15 +1,11 @@
-var num = 17;
-var counter = 0;
-for (var i = 1; i < num; i++) {
-  if (num % i == 0) {
-    counter++;
+const primeCalulate = (number) => {
+  if(number == 2) {return true;}
+  for(var i = 2; i < number/2; ++ i) {
+    if(number % i == 0) {
+      return false;
+    }
   }
-}
-if (counter == 2) {
-  console.log(" Prime Number");
-}
-else {
-  console.log("not a Prime");
+  return false;
 }
 
-//added some comment. 
+console.log(primeCalulate(17));
