@@ -3,6 +3,6 @@ if(num % 2 == 0){
     console.log("even");
 }
 else{
-    console.log("not even");
+    console.log("odd");
 }
-console.log("check");
+
