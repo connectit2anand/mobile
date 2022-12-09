@@ -1,7 +1,9 @@
 var num = 7;
 if(num % 2 == 0){
-    console.log("not even");
-}
-else{
     console.log("even");
 }
+else{
+    console.log("odd");
+}
+
+console.log("Hello World");
