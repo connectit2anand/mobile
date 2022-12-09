@@ -6,4 +6,3 @@ else{
     console.log("odd");
 }
 
-console.log("Hello World");
